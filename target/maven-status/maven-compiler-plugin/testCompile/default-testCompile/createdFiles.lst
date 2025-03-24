@@ -1,5 +1,0 @@
-com/hrm/page/DashboardPage.class
-com/hrm/runners/TestRunner.class
-com/hrm/steps/LoginSteps.class
-com/hrm/stepdefinitions/LoginStepDefinitions.class
-com/hrm/page/LoginPage.class
