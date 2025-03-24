@@ -80,6 +80,9 @@ Desktop.ini
 local.properties
 .loadpath
 .recommenders
+**/src/test/resources/webdriver/linux/*
+**/src/test/resources/webdriver/windows/*
+**/src/test/resources/webdriver/mac/*
 
 ### Logs ###
 logs/

@@ -42,10 +42,10 @@ RUN mvn clean compile -DskipTests
 # Configura Chromium e ChromeDriver para rodar no modo headless
 ENV CHROME_BIN=/usr/bin/chromium-browser
 ENV CHROMEDRIVER_BIN=/app/src/test/resources/webdriver/linux/chromedriver
-ENV DISPLAY=:99
+ENV DISPLAY=:9do9
 
 # Define propriedades do sistema para o WebDriver
 ENV JAVA_OPTS="-Dwebdriver.chrome.driver=/app/src/test/resources/webdriver/linux/chromedriver"
 
 # Comando para iniciar os testes (modo headless)
-CMD ["sh", "-c", "mvn test -Dwebdriver.chrome.driver=/app/src/test/resources/webdriver/linux/chromedriver -Dchrome.options=--headless,--no-sandbox,--disable-dev-shm-usage"]
+CMD ["sh", "-c", "mvn verify -Dwebdriver.chrome.driver=/app/src/test/resources/webdriver/linux/chromedriver -Dchrome.options=--headless,--no-sandbox,--disable-dev-shm-usage"]

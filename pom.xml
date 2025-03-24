@@ -127,7 +127,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-                        <include>**/*.java</include>
+                        <include>**/*Test.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
                 </configuration>
