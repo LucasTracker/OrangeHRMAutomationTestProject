@@ -1,0 +1,5 @@
+/home/darknet/Documentos/hrmproject/src/test/java/com/hrm/steps/LoginSteps.java
+/home/darknet/Documentos/hrmproject/src/test/java/com/hrm/runners/TestRunner.java
+/home/darknet/Documentos/hrmproject/src/test/java/com/hrm/page/LoginPage.java
+/home/darknet/Documentos/hrmproject/src/test/java/com/hrm/page/DashboardPage.java
+/home/darknet/Documentos/hrmproject/src/test/java/com/hrm/stepdefinitions/LoginStepDefinitions.java
